@@ -1,0 +1,18 @@
+version: "3.3"
+
+
+services:
+  app:
+    container_name: employee-portal-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+      #target: development
+    # volumes:
+      # - './src:/app/src'
+      # - '/app/node_modules'
+    ports:
+      - 3096:3000
+    environment:
+      - NODE_ENV=production
+      # - BACKEND_URL=https://manage.belex1.ir/

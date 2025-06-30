@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'IRANYekan';
+    src: url('./assets/fonts/IRANYekan.woff2') format('woff2'),
+    url('./assets/fonts/IRANYekan.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: 'IRANYekan', sans-serif;
+  }

@@ -1,0 +1,63 @@
+{
+  "name": "employee-portal",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/cache": "^11.14.0",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@fontsource/roboto": "^5.0.8",
+    "@mui/icons-material": "^5.17.1",
+    "@mui/material": "^5.17.1",
+    "@mui/x-date-pickers": "^7.28.3",
+    "ajv": "^8.17.1",
+    "ajv-keywords": "^5.1.0",
+    "axios": "^1.8.4",
+    "clsx": "^2.1.1",
+    "date-fns": "^4.1.0",
+    "dayjs": "^1.11.13",
+    "eslint": "^8.56.0",
+    "framer-motion": "^12.6.3",
+    "jalali-dayjs": "^0.0.1",
+    "jalali-moment": "^3.3.11",
+    "jalaliday": "^2.3.0",
+    "keycloak-js": "^26.1.5",
+    "lucide-react": "^0.511.0",
+    "moment-jalaali": "^0.10.4",
+    "prettier": "^3.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-multi-date-picker": "^4.5.2",
+    "react-router": "^6.30.1",
+    "react-router-dom": "^7.6.1",
+    "react-scripts": "5.0.1",
+    "react-to-print": "^3.0.5",
+    "react-toastify": "^11.0.5",
+    "web-vitals": "^2.1.4",
+    "xlsx": "^0.18.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
